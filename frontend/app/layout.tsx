@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   title:{ 
     template: "%s - Blossom Books",
@@ -17,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-poppins antiliased">
+        <header />
         {children}
       </body>
     </html>
